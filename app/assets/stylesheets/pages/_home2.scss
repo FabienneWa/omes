@@ -1,5 +1,6 @@
 .categories {
   display: grid;
+  align-items: center;
   grid-template-columns: 1fr 1fr;
   grid-gap: 16px;
   grid-template-rows: auto;
@@ -17,12 +18,26 @@
   background-size: cover;
 }
 
+@media(max-width: 768px) {
+  .categories {
+    grid-template-columns: 1fr;
+  }
+  .category_item {
+  width: 90vw;
+  height: 50vh;
+  }
+  .img-grid {
+  width: 90vw;
+  height: 100%;
+  background-size: cover;
+}
+}
 
 // .category_item-1 {
 //     grid-column-start: 1;
-//     grid-column-end: 3;
+//     grid-column-end: 2;
 //     grid-row-start: 1;
-//     grid-row-end: 3;
+//     grid-row-end: 1;
 // }
 
 // .category_item-2 {
