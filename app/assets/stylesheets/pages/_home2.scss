@@ -1,0 +1,27 @@
+.categories {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.category_item {
+  height: 100px;
+}
+
+.category_img {
+    height: 100px;
+}
+
+// .category_item-1 {
+//     grid-column-start: 1;
+//     grid-column-end: 3;
+//     grid-row-start: 1;
+//     grid-row-end: 3;
+// }
+
+// .category_item-2 {
+//     grid-column-start: 3;
+//     grid-column-end: 5;
+//     grid-row-start: 1;
+//     grid-row-end: 3;
+// }

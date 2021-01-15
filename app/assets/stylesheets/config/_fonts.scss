@@ -1,9 +1,11 @@
 // Import Google fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Work+Sans:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
 // Define fonts for body and headers
-$body-font: "Work Sans", "Helvetica", "sans-serif";
-$headers-font: "Nunito", "Helvetica", "sans-serif";
+$body-font: 'Abril Display';
+$headers-font: 'Abril Fatface';
 
 // To use a font file (.woff) uncomment following lines
 // @font-face {
@@ -14,3 +16,60 @@ $headers-font: "Nunito", "Helvetica", "sans-serif";
 //        font-url('FontFile.ttf') format('truetype')
 // }
 // $my-font: "Font Name";
+
+@font-face {
+    font-family: 'Abril Display';
+    src: url("AbrilDisplay-BlackItalic.otf");
+}
+
+@font-face {
+    font-family: 'Abril Text';
+    src: url("fonts/AbrilText-Bold.otf");
+}
+
+// @font-face {
+//     font-family: "Abril Text";
+//     src: url("fonts/AbrilText-Regular.otf") format("opentype");
+// }
+
+// @font-face {
+//     font-family: "Abril Text";
+//     font-style: sans-serif;
+//     src: url("fonts/AbrilText-Italic.otf") format("opentype");
+// }
+
+// @font-face {
+//     font-family: "Joane Black";
+//     src: url("fonts/Joane-Black.otf") format("opentype");
+// }
+
+h1 {
+  font-family: 'Abril Fatface' !important;
+  font-size: 42px !important;
+}
+
+h2 {
+  font-family: 'Abril Fatface' !important;
+  font-size: 31px !important;
+}
+
+h3 {
+  font-family: 'Abril Fatface' !important;
+  font-size: 20px !important;
+}
+
+h4 {
+  font-family: 'Abril Fatface' !important;
+  font-size:  16px !important;
+}
+
+h5 {
+  font-family: 'Abril Fatface' !important;
+  font-size: 12px !important;
+}
+
+p {
+  font-family: 'Abril Text' !important;
+  font-size: 14px;
+}
+
