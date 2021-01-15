@@ -1,0 +1,35 @@
+.footer {
+  text-align: center;
+  margin-top: 56px;
+  margin-bottom: 16px;
+  & a {
+    color: black;
+    &:hover {
+      color: grey;
+      text-decoration: none;
+    }
+  }
+}
+
+
+.icons a i {
+  font-size: 24px;
+  padding-right: 40px;
+  padding-left: 40px;
+  margin-bottom: 16px;
+  color: black;
+  &:hover {
+    color: grey;
+    text-decoration: none;
+  }
+}
+
+.footer hr {
+  background-color: black;
+  opacity: 0.8;
+}
+
+.footer img {
+  height: 50px;
+}
+

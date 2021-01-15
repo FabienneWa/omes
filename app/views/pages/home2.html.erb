@@ -1,6 +1,21 @@
-<div class="container">
 
-  <div class="categories">
+<%= render 'shared/navbar' %>
+
+
+<%= render 'shared/carousel' %>
+
+
+
+<div class="container">
+  <div class="introduction mt-5 mb-5">
+    <h1>Unsere Genusswelt</h1>
+    <p>Wuerd hier kurz eine Einleitung zm bier schreiben, das zum Brauverfahren ueberleitet.
+    Aus gemälztem (geröstetem) Biogetreide, weichem Lecher Quellwasser, Hopfen aus Tettnang und Hefe entsteht Bier, WeizenArlbeer oder Pale Ale. 500 bis 1.000 Liter sind es pro Braugang. Wichtig ist Clemens Walch, dass das Bier viel Zeit zum Reifen hat: Mindestens vier Wochen lang ruht es in großen Lagerbehältern. Die Enzyme machen ihre Arbeit, der Zucker wird in Alkohol umgewandelt und mit jedem Tag reift auch der Geschmack. „Gut Ding braucht Weile! So ist es beim guten Brot, so ist es bei gutem Bier!“</p>
+  </div>
+</div>
+
+<div class="container align-items-center">
+  <div class="categories align-items-center">
 
     <div class="category_item category_item-1">
       <div style="background-image: url(<%= image_path 'main_brot.jpg' %>)" class="img-grid"></div>
@@ -26,5 +41,7 @@
        <div style="background-image: url(<%= image_path 'main-destillate.jpg' %>)" class="img-grid"></div>
     </div>
   </div>
+</div>
+
 
 </div>
