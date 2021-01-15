@@ -1,11 +1,133 @@
 <%= render 'shared/navbar' %>
 
-<div class="header">
-  <%= image_tag "main-slider-bier", class: "header-slider"%>
-</div>
+
+<%= render 'shared/carousel' %>
+
+
 
 <div class="container">
+  <div class="introduction mt-5 mb-5">
     <h1>Unsere Genusswelt</h1>
     <p>Wuerd hier kurz eine Einleitung zm bier schreiben, das zum Brauverfahren ueberleitet.
-Aus gemälztem (geröstetem) Biogetreide, weichem Lecher Quellwasser, Hopfen aus Tettnang und Hefe entsteht Bier, WeizenArlbeer oder Pale Ale. 500 bis 1.000 Liter sind es pro Braugang. Wichtig ist Clemens Walch, dass das Bier viel Zeit zum Reifen hat: Mindestens vier Wochen lang ruht es in großen Lagerbehältern. Die Enzyme machen ihre Arbeit, der Zucker wird in Alkohol umgewandelt und mit jedem Tag reift auch der Geschmack. „Gut Ding braucht Weile! So ist es beim guten Brot, so ist es bei gutem Bier!“</p>
-</div>
+    Aus gemälztem (geröstetem) Biogetreide, weichem Lecher Quellwasser, Hopfen aus Tettnang und Hefe entsteht Bier, WeizenArlbeer oder Pale Ale. 500 bis 1.000 Liter sind es pro Braugang. Wichtig ist Clemens Walch, dass das Bier viel Zeit zum Reifen hat: Mindestens vier Wochen lang ruht es in großen Lagerbehältern. Die Enzyme machen ihre Arbeit, der Zucker wird in Alkohol umgewandelt und mit jedem Tag reift auch der Geschmack. „Gut Ding braucht Weile! So ist es beim guten Brot, so ist es bei gutem Bier!“</p>
+  </div>
+
+
+  <div class="row">
+
+    <div class="col-12 col-sm-7 mb-2 pr-2">
+      <div style="background-image: url(<%= image_path "main-bier2.jpg" %>)" class="img-div"></div>
+    </div>
+    <div class="col-12 col-sm-5 border-box mb-2">
+      <h3>Omes Bier</h3>
+      <p>Lorem, ipsum dolor sit amet</p>
+    </div>
+
+    <div class="col-12 col-sm-5 border-box mb-2">
+      <h3>Gestreiche Destillate</h3>
+      <p>Lorem, ipsum dolor sit amet</p>
+    </div>
+    <div class="col-12 col-sm-7 mb-2 pl-2">
+      <div style="background-image: url(<%= image_path "main-destillate.jpg" %>)" class="img-div"></div>
+    </div>
+
+    <div class="col-12 col-sm-7 mb-2 pr-2">
+      <div style="background-image: url(https://images.unsplash.com/photo-1509440159596-0249088772ff?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80)" class="img-div"></div>
+    </div>
+    <div class="col-12 col-sm-5 border-box mb-2">
+      <h3>Brot backen</h3>
+      <p>Lorem, ipsum dolor sit amet</p>
+    </div>
+
+    <div class="col-12 col-sm-5 mb-2 border-box">
+      <h3>Konditorei - Cafe</h3>
+      <p>Lorem, ipsum dolor sit amet</p>
+    </div>
+    <div class="col-12 col-sm-7 mb-2 pl-2">
+      <div style="background-image: url(https://images.unsplash.com/photo-1485474187873-a541e1da7c51?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1950&q=80)" class="img-div"></div>
+    </div>
+
+    <div class="col-12 col-sm-7 mb-2 pr-2">
+      <div style="background-image: url(<%= image_path "main-speck3.jpg" %>)" class="img-div"></div>
+    </div>
+    <div class="col-12 col-sm-5 border-box mb-2">
+      <h3>Valluga Speck</h3>
+      <p>Lorem, ipsum dolor sit amet</p>
+    </div>
+
+    <div class="col-12 col-sm-5 mb-2 border-box">
+      <h3>Workshops</h3>
+      <p>Lorem, ipsum dolor sit amet</p>
+    </div>
+    <div class="col-12 col-sm-7 mb-2 pl-2">
+      <div style="background-image: url(https://images.unsplash.com/flagged/photo-1561668038-2742fcef75d7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80)" class="img-div"></div>
+    </div>
+
+    <div class="col-12 col-sm-7 mb-2 pr-2">
+      <div style="background-image: url(<%= image_path "main-uberuns.jpg" %>)" class="img-div"></div>
+    </div>
+    <div class="col-12 col-sm-5 border-box mb-2">
+      <h3>Uber uns</h3>
+      <p>Lorem, ipsum dolor sit amet</p>
+    </div>
+
+    <div class="col-12 col-sm-5 mb-2 border-box">
+      <h3>Hotel Gotthard</h3>
+      <p>Lorem, ipsum dolor sit amet</p>
+    </div>
+    <div class="col-12 col-sm-7 mb-2 pl-2">
+      <div style="background-image: url(<%= image_path "main_gotthard.jpg" %>)" class="img-div"></div>
+    </div>
+
+
+  </div>
+
+
+<!-- <div class="row">
+    <div class="col-lg-5 col-sm-12 mt-auto">
+      <div style="background-image: url(<%= image_path "main_brot.jpg" %>)" class="img-div bigger"> <h1 class="centered">Brot backen</h1></div>
+      <div style="background-image: url(<%= image_path "main-destillate.jpg" %>)"  class="img-div smaller"><h1 class="centered">Brot backen</h1></div>
+    </div>
+    <div class="col-lg-6 col-sm-12">
+      <div style="background-image: url(<%= image_path "main_uns.jpg" %>)" class="img-div"><h1 class="centered">Ueber uns</h1></div>
+    </div>
+  </div>
+</div> -->
+<!--
+  <div class="themecat1">
+    <div class="subtheme1">
+      <div class="theme">
+        <%= image_tag "main_brot", alt: "Brot backen"%>
+        <div class="centered">Brot backen</div>
+      </div>
+
+      <div class="theme">
+        <%= image_tag "main-destillate", alt: "Geistreiche Destillate"%>
+        <div class="centered">Geistreiche Distillate</div>
+      </div>
+    </div>
+
+    <div class="subtheme2">
+      <div class="theme">
+        <%= image_tag "main-uberuns", alt: "Ueber uns"%>
+        <div class="centered">Ueber uns</div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="themecat2">
+    <div class="subtheme1">
+      <div class="theme m-1">
+        <%= image_tag "main-bier", alt: "Brot backen"%>
+        <div class="centered">Omes Bier</div>
+      </div>
+
+      <div class="theme m-1">
+        <%= image_tag "main_konditorei", alt: "Geistreiche Destillate"%>
+        <div class="centered">Konditorei - Cafe</div>
+      </div>
+    </div>
+  </div> -->
+
+
