@@ -26,6 +26,7 @@ gem 'font-awesome-sass'
 gem 'simple_form'
 # Use Active Storage variant
 gem 'dotenv-rails', groups: [:development, :test]
+gem 'cloudinary', '~> 1.16.0'
 # gem 'image_processing', '~> 1.2'
 
 # Reduces boot times through caching; required in config/boot.rb
