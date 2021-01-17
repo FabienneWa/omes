@@ -25,6 +25,7 @@ gem 'autoprefixer-rails'
 gem 'font-awesome-sass'
 gem 'simple_form'
 # Use Active Storage variant
+gem 'dotenv-rails', groups: [:development, :test]
 # gem 'image_processing', '~> 1.2'
 
 # Reduces boot times through caching; required in config/boot.rb
