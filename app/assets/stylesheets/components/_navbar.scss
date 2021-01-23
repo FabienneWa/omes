@@ -6,6 +6,15 @@
   padding: 20px;
 }
 
+.navbar {
+  background-color: transparent;
+  transition: 0.5s background-color ease;
+}
+
+.navbar-white {
+  background-color: white;
+}
+
 .sidenav {
   height: 100%; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
