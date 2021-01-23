@@ -50,7 +50,7 @@
 
 .card-category:hover {
 	transition: all 1s;
-	opacity: 1;
+	filter: brightness(50%);
 }
 
 @keyframes showText {
