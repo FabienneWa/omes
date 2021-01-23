@@ -1,11 +1,11 @@
 // Import Google fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Work+Sans:400,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700|Work+Sans:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 
 // Define fonts for body and headers
-$body-font: 'Abril Display';
-$headers-font: 'Abril Fatface';
+$body-font: "Abril Display";
+$headers-font: "Abril Fatface";
 
 // To use a font file (.woff) uncomment following lines
 // @font-face {
@@ -18,13 +18,13 @@ $headers-font: 'Abril Fatface';
 // $my-font: "Font Name";
 
 @font-face {
-    font-family: 'Abril Display';
-    src: url("AbrilDisplay-BlackItalic.otf");
+  font-family: "Abril Display";
+  src: url("AbrilDisplay-BlackItalic.otf");
 }
 
 @font-face {
-    font-family: 'Abril Text';
-    src: url("fonts/AbrilText-Bold.otf");
+  font-family: "Abril Text";
+  src: url("fonts/AbrilText-Bold.otf");
 }
 
 // @font-face {
@@ -44,32 +44,31 @@ $headers-font: 'Abril Fatface';
 // }
 
 h1 {
-  font-family: 'Abril Fatface' !important;
+  font-family: "Abril Fatface" !important;
   font-size: 42px !important;
 }
 
 h2 {
-  font-family: 'Abril Fatface' !important;
+  font-family: "Abril Fatface" !important;
   font-size: 31px !important;
 }
 
 h3 {
-  font-family: 'Abril Fatface' !important;
+  font-family: "Abril Fatface" !important;
   font-size: 20px !important;
 }
 
 h4 {
-  font-family: 'Abril Fatface' !important;
-  font-size:  16px !important;
+  font-family: "Abril Fatface" !important;
+  font-size: 16px !important;
 }
 
 h5 {
-  font-family: 'Abril Fatface' !important;
+  font-family: "Abril Fatface" !important;
   font-size: 12px !important;
 }
 
 p {
-  font-family: 'Abril Text' !important;
+  font-family: "Abril Text" !important;
   font-size: 14px;
 }
-
