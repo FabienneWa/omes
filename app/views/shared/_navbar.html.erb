@@ -22,11 +22,19 @@
 <script>
   /* Set the width of the side navigation to 250px */
 function openNav() {
+  if (x.matches) {
+    document.getElementById("mySidenav").style.width = "100%";
+  } else {
   document.getElementById("mySidenav").style.width = "30%";
+  }
 }
 
 /* Set the width of the side navigation to 0 */
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
+
+var x = window.matchMedia("(max-width: 576px)")
+openNav(x) // Call listener function at run time
+x.addListener(openNav) // Attach listener function on state changes
 </script>
