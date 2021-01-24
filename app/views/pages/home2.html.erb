@@ -20,10 +20,14 @@
       <h3 class="text-1">Geistreiche Destillate</h3>
       <h3 class="text-2">Mehr erfahren <i class="fas fa-angle-right"></i></h3>
     </div>
+
     <div class="card-category item-c" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://res.cloudinary.com/dxfvu5kcy/image/upload/v1611265601/zeitraum-clemens-walch-omes-bier_074_be_xudig1.jpg)">
-      <h3 class="text-1">Omes Bier</h3>
-      <h3 class="text-2">Mehr erfahren <i class="fas fa-angle-right"></i></h3>      
-    </div>
+      <%= link_to omes_arlbeer_path, :action => 'go' do %>
+        <h3 class="text-1">Omes Bier</h3>
+        <h3 class="text-2">Mehr erfahren <i class="fas fa-angle-right"></i></h3>
+      <% end %>
+</div>
+
     <div class="card-category item-d" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://res.cloudinary.com/dxfvu5kcy/image/upload/v1611265523/zeitraum-clemens-walch-omes-bier_028_be_ci3s0j.jpg)">
       <h3 class="text-1">Valluga Speck</h3>
       <h3 class="text-2">Mehr erfahren <i class="fas fa-angle-right"></i></h3>
