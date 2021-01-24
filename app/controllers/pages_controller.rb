@@ -7,4 +7,7 @@ class PagesController < ApplicationController
 
   def home2
   end
+
+  def arlbeer
+  end
 end

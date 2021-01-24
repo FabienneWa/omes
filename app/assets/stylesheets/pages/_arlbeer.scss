@@ -1,0 +1,55 @@
+.banner .detail {
+  background-image: cover;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  vertical-align: center;
+}
+
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 16px;
+}
+
+.textblock {
+  margin: 16px;
+  padding-left: 16px;
+}
+
+.textblock h3 {
+  text-align: left;
+}
+
+.textblock p {
+  text-align: left;
+}
+
+.block img {
+  width: 200px;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+}
+
+.product-box {
+  padding: 16px;
+  margin: 16px;
+  width: 2500px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+  background-position: center top; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: auto 100%; /* Resize the background image to cover the entire container */
+}
+
+

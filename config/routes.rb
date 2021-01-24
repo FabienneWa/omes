@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   get '/start', to: 'pages#start'
   get '/home', to: 'pages#home'
   get '/home2', to: 'pages#home2'
+  get '/omes/arlbeer', to: 'pages#arlbeer'
 end
