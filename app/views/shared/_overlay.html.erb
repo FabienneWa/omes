@@ -1,0 +1,31 @@
+<div class="overlay">
+  <%= image_tag "https://res.cloudinary.com/dxfvu5kcy/image/upload/v1611243092/OMES_Logo_pur2_llba00.png" %>
+  <p>Auf der Website der Omes Genusswelt finden Sie Informationen zu alkoholischen Getränken. <br>Aus diesem Grund bitten wir Sie Ihr Alter zu bestätigen.</p>
+  <div class="selection">
+    <button onclick="off()" class="btn-light over">Ueber 18 Jahre</button>
+    <button class="btn-light under">Unter 18 Jahre</button>
+  </div>
+</div>
+
+<script>
+
+// const over = document.querySelector('.overlay');
+// const come = document.querySelector('.overlay .over');
+// const go = document.querySelector('.overlay .under');
+
+// function off() {
+//   over.style.display = 'none';
+// }
+
+// come.addEventlistener('click', off)
+
+
+function on() {
+  document.querySelector(".overlay").style.display = "block";
+}
+
+function off() {
+  document.querySelector(".overlay").style.display = "none";
+}
+
+</script>
