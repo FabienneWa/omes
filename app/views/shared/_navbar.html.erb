@@ -35,6 +35,6 @@ function closeNav() {
 }
 
 var x = window.matchMedia("(max-width: 576px)")
-openNav(x) // Call listener function at run time
+closeNav(x) // Call listener function at run time
 x.addListener(openNav) // Attach listener function on state changes
 </script>
