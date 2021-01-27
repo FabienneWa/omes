@@ -52,4 +52,34 @@
   background-size: auto 100%; /* Resize the background image to cover the entire container */
 }
 
+// smaller screen
+@media only screen and (max-device-width: 700px) {
+  .products {
+    display: flex;
+    flex-direction: column;
+  }
 
+  .product-box {
+    margin: 0;
+    margin-top: 16px;
+    width: auto;
+  }
+
+  .block {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+  }
+
+  .textblock {
+    margin: 0px;
+    padding: 0px;
+
+    h3 {
+      text-align: center;
+    }
+    p {
+      text-align: justify;
+    }
+  }
+}
