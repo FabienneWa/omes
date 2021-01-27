@@ -3,7 +3,7 @@
 	color: white;
 	top: 35%;
 	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
-	transition: 0.2s;
+	transition: 0.3s;
 	position: relative;
 
 	h3 {
@@ -16,7 +16,7 @@ div.product-box:hover div.product-text {
 }
 
 div.product-box:hover div.product {
-	opacity: 0.5;
+	opacity: 0.4;
 }
 
 .product-box {
